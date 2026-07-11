@@ -1152,13 +1152,7 @@ usfp_manifest_destiny.10 = {
 				value = 5
 			}
 		}
-		custom_tooltip = {
-			text = usfp_manifest_destiny.10.a.t
-			trigger_event = {
-				id = usfp_manifest_destiny.11
-				days = 1
-			}
-		}
+        usfp_begin_chinese_california_migration = yes
 		set_variable = {
 			name = gold_mountain_arrivals
 			years = 2
@@ -1189,13 +1183,7 @@ usfp_manifest_destiny.10 = {
 				value = -5
 			}
 		}
-		custom_tooltip = {
-			text = usfp_manifest_destiny.10.a.t
-			trigger_event = {
-				id = usfp_manifest_destiny.11
-				days = 1
-			}
-		}
+        usfp_begin_chinese_california_migration = yes
 		set_variable = {
 			name = gold_mountain_arrivals
 			years = 2

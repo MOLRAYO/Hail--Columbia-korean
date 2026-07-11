@@ -2,8 +2,8 @@
     category = development
     always_possible = yes
 
-    lens = special
-    cash_reserves_max = 10000
+    lens = development
+    cash_reserves_max = 0
     inheritable_construction = yes
     economy_of_scale = no
 

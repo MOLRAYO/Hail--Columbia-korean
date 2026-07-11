@@ -2510,3 +2510,13 @@ usfp_anger_anti_country_lobby_create_if_missing = {
         SECOND = $TARGET$
     }
 }
+
+usfp_begin_chinese_california_migration = {
+    custom_tooltip = {
+        text = usfp_manifest_destiny.10.a.t
+        trigger_event = {
+            id = usfp_manifest_destiny.11
+            days = 1
+        }
+    }
+}

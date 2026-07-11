@@ -566,6 +566,16 @@ amendment_usfp_chinese_exclusion = {
                 }
                 is_incorporated = yes
             }
+            any_scope_ally = {
+                OR = {
+                    country_has_primary_culture = cu:han
+                    country_has_primary_culture = cu:hakka
+                    country_has_primary_culture = cu:manchu
+                    country_has_primary_culture = cu:min
+                    country_has_primary_culture = cu:yue
+                }
+                is_country_type = recognized
+            }
         }
     }
 
@@ -595,6 +605,7 @@ amendment_english_second_language = {
         country_australian_cultural_acceptance_add = 20
         country_anglo_canadian_cultural_acceptance_add = 20
         country_scottish_cultural_acceptance_add = 20
+        country_usfp_american_cultural_acceptance_add = 20
         country_tech_spread_mult = 0.10
     }
 

@@ -356,7 +356,10 @@ usfp_filibuster.4 = {
 	#puppet
 	option = {
 		name = usfp_filibuster.4.b
-		create_diplomatic_pact = {
+		c:usfp_SON = {
+            set_country_type = recognized
+        }
+        create_diplomatic_pact = {
 			country = c:usfp_SON
 			type = puppet
 		}

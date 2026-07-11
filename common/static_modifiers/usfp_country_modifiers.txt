@@ -65,7 +65,7 @@ usfp_indian_removal_modifier = {
 
 REPLACE_OR_CREATE:usfp_second_party_system_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_democracy_positive.dds
-	country_law_enactment_time_mult = 0.30
+	country_law_enactment_speed_mult = -0.25
 	country_legitimacy_ideological_incoherence_mult = -0.25
 }
 
@@ -227,7 +227,7 @@ usfp_modifier_wildfire_relief = {
 
 usfp_congressional_uproar = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_democracy_negative.dds
-	country_law_enactment_time_mult = 3
+	country_law_enactment_speed_mult = -0.90
 	interest_group_in_government_attraction_mult = -0.10
 }
 
@@ -263,7 +263,7 @@ usfp_1850_compromise_decaying = {
 
 usfp_fighting_in_congress = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_democracy_negative.dds
-	country_law_enactment_time_mult = 1
+	country_law_enactment_speed_mult = -0.50
 	country_authority_mult = -0.20
 	country_legitimacy_base_add = -5
 }
@@ -290,6 +290,7 @@ usfp_the_melting_pot_modifier = {
 	state_assimilation_mult = 0.25
 	state_conversion_mult = 0.25
 	country_allow_assimilation_full_acceptance_bool = yes
+    state_allow_assimilation_without_presence_bool = yes
 }
 
 usfp_e_pluribus_unum_modifier = {
@@ -398,7 +399,7 @@ usfp_imperial_ambitions = {
 usfp_constitutional_chaos = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_america_negative.dds
 	country_legitimacy_base_add = -15
-	country_law_enactment_time_mult = 0.50
+	country_law_enactment_speed_mult = -0.50
 	country_opposition_ig_approval_add = -5
 }
 
@@ -837,7 +838,7 @@ usfp_philippines_military_government_modifier = {
     interest_group_ig_armed_forces_approval_add = 5
     interest_group_ig_armed_forces_pol_str_mult = 1.00
     country_law_enactment_imposition_success_add = 0.75
-    country_law_enactment_time_mult = -0.25
+    country_law_enactment_speed_mult = 0.25
     country_legitimacy_min_add = 30
     country_liberty_desire_add = -0.10
 }

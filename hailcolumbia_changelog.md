@@ -973,3 +973,16 @@ Added double-check to make sure that the CSA actually keeps afro-american slaves
 Merged hotfix change where the Russian-American company is dissolved upon the sale of Alaska
 Removed Brazilian Portuguese english placeholder text in favor of new translation submod
 Updated english placeholder texts for French, Japanese, Polish, Turkish
+
+# 8.6 "Roosevelt"
+Slaver USA that becomes the CSA loses Yankee as a Primary Culture
+Claim Canada button now also annexes Canadian states owned by your subjects
+Updated text for non-white election candidate event to account for other yankee countries
+Replaced enactment time modifiers with new enactment speed modifiers
+Fixed swapped radical values on Superculture JE
+Chinese Exclusion Act can be repealed if you are an Ally of a Recognized Chinese country
+English Second Language amendment now includes the Superculture
+Dixie Redoubt no longer spawns with the Superculture
+Fixed Sonora not being puppeted by event
+Added tooltip showing that Secessionist Conventions can be avoided if Landowners are low enough clout
+Melting Pot modifier now always allows assimilation to the Primary Culture

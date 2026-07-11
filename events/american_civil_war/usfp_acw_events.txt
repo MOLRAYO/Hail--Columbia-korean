@@ -852,6 +852,12 @@ usfp_acw.9 = {
             exists = c:FSA
             country_has_primary_culture = cu:dixie
         }
+        if = {
+            limit = {
+                country_has_primary_culture = cu:yankee
+            }
+            remove_primary_culture = cu:yankee
+        }
         change_tag = CSA
         usfp_entrench_slavery_effect = yes
         change_relations = {

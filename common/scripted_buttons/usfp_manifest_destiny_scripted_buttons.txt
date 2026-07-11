@@ -690,6 +690,18 @@ usfp_claim_canada_button = {
 				}
 			}
 		}
+        every_subject_or_below = {
+            every_scope_state = {
+                limit = {
+                    OR = {
+                        is_in_geographic_region = geographic_region_canada
+                        state_region = s:STATE_YUKON_TERRITORY
+                        state_region = s:STATE_BRITISH_COLUMBIA
+                    }
+                }
+                set_state_owner = root
+            }
+        }
 	}
 	ai_chance = {
 		value = 5

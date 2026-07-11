@@ -2893,6 +2893,9 @@ usfp_usa_postreconstruction.17 = {
 
 	trigger = {
 		has_global_variable = usfp_reconstruction_outcome_radical
+        NOT = {
+            country_has_primary_culture = cu:usfp_american
+        }
 		s:STATE_IDAHO = {
 			any_scope_state = {
 				state_is_eligible_as_mass_migration_target = yes

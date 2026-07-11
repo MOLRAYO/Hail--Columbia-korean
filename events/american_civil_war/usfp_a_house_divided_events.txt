@@ -194,9 +194,61 @@ usfp_a_house_divided.3 = {
 		}
 	}
 
+    cancellation_trigger = {
+        NOT = {
+            OR = {
+                ruler = {
+                    usfp_anti_slavery_leader_trigger = yes
+                }
+                AND = {
+                    is_enacting_law = law_type:law_slavery_banned
+                    enactment_phase > 1
+                    any_political_movement = {
+                        is_political_movement_type = movement_pro_slavery
+                        OR = {
+                            political_movement_support >= 0.10
+                            AND = {
+                                political_movement_support >= 0.05
+                                political_movement_radicalism >= 0.25
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        ig:ig_landowners = {
+            ig_clout <= 0.05
+        }
+    }
+
 	option = {
 		name = usfp_a_house_divided.3.a
-		default_option = yes
+		highlighted_option = yes
+        trigger = {
+            OR = {
+                ruler = {
+                    usfp_anti_slavery_leader_trigger = yes
+                }
+                AND = {
+                    is_enacting_law = law_type:law_slavery_banned
+                    enactment_phase > 1
+                    any_political_movement = {
+                        is_political_movement_type = movement_pro_slavery
+                        OR = {
+                            political_movement_support >= 0.10
+                            AND = {
+                                political_movement_support >= 0.05
+                                political_movement_radicalism >= 0.25
+                            }
+                        }
+                    }
+                }
+            }
+            ig:ig_landowners = {
+                ig_clout > 0.05
+            }
+        }
+        default_option = yes
 		add_radicals = {
 			value = 0.4
 			interest_group = ig:ig_landowners
